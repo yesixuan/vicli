@@ -6,7 +6,7 @@
     "packages/vue-cli-version-marker"
   ],
   "scripts": {
-    "create": "node packages/@vicli/cli/bin/vue.js create haha",
+    "create": "node packages/@vicli/cli/bin/vue.js create airbnb",
     "serve": "node packages/@vicli/cli-service/bin/vue-cli-service.js serve",
     "test": "node scripts/test.js",
     "pretest": "yarn clean",

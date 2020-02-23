@@ -47,7 +47,7 @@ test('standard', async () => {
     'plugin:vue/essential',
     '@vue/standard'
   ])
-  expect(pkg.devDependencies).toHaveProperty('@vue/eslint-config-standard')
+  expect(pkg.devDependencies).toHaveProperty('@vicli/eslint-config-standard')
 })
 
 test('prettier', async () => {

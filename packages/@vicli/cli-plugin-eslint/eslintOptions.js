@@ -20,14 +20,14 @@ exports.config = (api, preset) => {
   }
 
   if (preset === 'airbnb') {
-    config.extends.push('@vue/airbnb')
+    config.extends.push('airbnb')
   } else if (preset === 'standard') {
-    config.extends.push('@vue/standard')
+    config.extends.push("@vicli/standard");
   } else if (preset === 'prettier') {
     config.extends.push(...['eslint:recommended', '@vue/prettier'])
   } else {
     // default
-    config.extends.push('eslint:recommended')
+    // config.extends.push('eslint:recommended')
   }
 
   if (api.hasPlugin('typescript')) {

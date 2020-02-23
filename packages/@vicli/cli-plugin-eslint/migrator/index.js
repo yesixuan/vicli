@@ -44,13 +44,13 @@ module.exports = async (api) => {
     const { getDeps } = require('../eslintDeps')
 
     const newDeps = getDeps(api)
-    if (pkg.devDependencies['@vue/eslint-config-airbnb']) {
+    if (pkg.devDependencies['eslint-config-airbnb']) {
       Object.assign(newDeps, getDeps(api, 'airbnb'))
     }
-    if (pkg.devDependencies['@vue/eslint-config-standard']) {
+    if (pkg.devDependencies['@vicli/eslint-config-standard']) {
       Object.assign(newDeps, getDeps(api, 'standard'))
     }
-    if (pkg.devDependencies['@vue/eslint-config-prettier']) {
+    if (pkg.devDependencies['@vicli/eslint-config-prettier']) {
       Object.assign(newDeps, getDeps(api, 'prettier'))
     }
 
