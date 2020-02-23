@@ -1,0 +1,44 @@
+{
+  "name": "@vicli/cli-plugin-eslint",
+  "version": "0.0.28",
+  "description": "eslint plugin for vue-cli",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yesixuan/vicli.git",
+    "directory": "packages/@vue/cli-plugin-eslint"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "eslint"
+  ],
+  "author": "Vic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yesixuan/vicli/issues"
+  },
+  "homepage": "https://github.com/yesixuan/vicli/tree/dev/packages/@vue/cli-plugin-eslint#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@vicli/cli-shared-utils": "^0.0.2",
+    "babel-eslint": "^10.0.3",
+    "eslint-loader": "^2.1.2",
+    "globby": "^9.2.0",
+    "inquirer": "^6.3.1",
+    "webpack": "^4.0.0",
+    "yorkie": "^2.0.0",
+    "eslint-config-react-app": "^5.2.0",
+    "eslint-plugin-flowtype": "^4.6.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^2.4.0"
+  },
+  "peerDependencies": {
+    "@vue/cli-service": "^0.0.51",
+    "eslint": ">= 1.6.0"
+  }
+}

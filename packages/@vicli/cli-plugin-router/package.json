@@ -1,0 +1,34 @@
+{
+  "name": "@vicli/cli-plugin-router",
+  "version": "0.0.0",
+  "description": "router plugin for vicli",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yesixuan/vicli.git",
+    "directory": "packages/@vicli/cli-plugin-router"
+  },
+  "keywords": [
+    "vicli",
+    "cli",
+    "router"
+  ],
+  "author": "Vic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yesixuan/vicli/issues"
+  },
+  "homepage": "https://github.com/yesixuan/vicli/tree/dev/packages/@vue/cli-plugin-router#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@vicli/cli-shared-utils": "^0.0.3"
+  },
+  "devDependencies": {
+    "@vue/cli-test-utils": "^4.2.2"
+  },
+  "peerDependencies": {
+    "@vicli/cli-service": "^0.0.54"
+  }
+}
